@@ -1,0 +1,193 @@
+html{
+  height: 100%;
+  font-size: 100%;
+}
+body {
+  font: 13px arial;
+}
+nav{
+  padding: 4px 20px;
+}
+nav ul{
+  list-style: none;
+  padding: 0px;
+  line-height: 0px;
+}
+li{
+  display: inline-block;
+  padding: 5px 7px;
+  vertical-align: middle;
+}
+.right-nav{
+  float: right;
+  position: relative;
+  padding-top: 0px;
+  padding-right: 8px;
+}
+.menu{
+  width:16px;
+  height: 16px;
+  margin-top: -2px;
+  padding-right: 9px;
+  opacity: 0.65;
+}
+nav img{
+   list-style: none;
+   color: #000;
+   opacity: 0.65;
+}
+nav  img:hover {
+  opacity: 1.7;
+}
+nav a{
+  text-decoration: none;
+  color:black;
+}
+nav  .gmail:hover {
+  text-decoration-line: underline;
+  opacity: 0.65;
+}
+.signin{
+  border:1px solid #4285f4;
+  background: #4485f3;
+  outline: none;
+  display: inline-block;
+  line-height: 28px;
+  border-radius: 2px;
+  padding: 0 12px;
+  color:#fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.micro{
+  padding-right: 15px;
+  padding-top: 12px;
+}
+.icone{
+  padding-left: 15px;
+  padding-top: 13px;
+  color: #222
+  text-align: left;
+  opacity: 0.4
+}
+.cadre_de_recherche{
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  height: 34px;
+  font-size: 16px;
+  font: 16px arial,sans-serif;
+  line-height: 34px;
+}
+.recherche{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+section{
+  padding-top: 110px;
+  color: #222;
+}
+.recherche_Google_et_J_ai_de_la_chance input[type="submit"]{
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.recherche_Google:hover{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #000;
+  border-color: #222;
+}
+.J_ai_de_la_chance:hover{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #000;
+  border-color: #222;
+}
+.langue{
+  padding-top: 20px;
+  line-height: 28px;
+  text-decoration: none;
+}
+.arabic{
+  color: #1a0dab;
+  text-decoration: none;
+}
+section a{
+  text-decoration: none;
+}
+.arabic:hover{
+  text-decoration: underline;
+}
+footer{
+  color:#666666;
+  background-color: #f2f2f2;
+  line-height: 30px;
+  position:absolute;
+  left: 0;
+  right:0;
+  bottom: 0;
+  border-top: solid 1px #e4e4e4;
+}
+footer a{
+  text-decoration: none;
+  color:#666666;
+  font-size: 14px;
+  vertical-align: middle;
+}
+footer a:hover{
+  text-decoration-line: underline;
+}
+.footerright{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 27px;
+  margin: 0 !important
+}
+.footerleft{
+  padding-left: 27px;
+  margin: 0 !important
+}
+footer .Tunisie{
+  border-top: #e4e4e4;
+  border-width: 0.05px;
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 15px;
+}
+hr{
+  opacity: 0.2
+}
